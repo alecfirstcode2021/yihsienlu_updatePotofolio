@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../background2.jpg);
+  background-position: center;
+  height: 200vh;
+}
+.border-black {
+  border: 1px solid black;
+}
+button {
+  background-color: teal;
+  color: white;
+}
+
+.nav-container,
+.content-container,
+.footer-container {
+  width: 960px;
+  margin: 0 auto;
+}
+.subcontainer {
+  width: 33%;
+  margin: 0px 8px;
+}
+
+.subcontainerimg {
+  width: 100%;
+}
+
+.subcontainerbanner {
+  position: absolute;
+  background-color: teal;
+  width: 100%;
+  bottom: 50px;
+  color: white;
+  padding: 50x 0;
+  text-align: center;
+}
+.content-container {
+  background-color: white;
+  padding: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.fd-row {
+  flex-direction: row;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+img {
+  height: 300px;
+  margin-right: 1rem;
+}
+
+.fake-border {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: teal;
+  color: white;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 5px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  padding: 1rem;
+}
+h1 {
+  color: teal;
+  border-color: #cccccc;
+}
+
+footer {
+  background-color: #666666;
+}
+
+p {
+  max-width: 2000px;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  color: #666666;
+  text-indent: 20%;
+  text-align: left;
+  width: 100%;
+  display: flex;
+}
+
+ul {
+  display: flex;
+
+  margin-bottom: 0px;
+  margin-top: 0px;
+  align-self: center;
+  list-style-type: none;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  flex: auto;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  height: 80px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.col-sm-4 {
+  display: flex;
+}
